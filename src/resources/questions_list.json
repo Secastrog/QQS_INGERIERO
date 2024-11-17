@@ -1,0 +1,334 @@
+ {
+  "questions": [
+    {
+      "statementQuestion": "¿Qué es una variable en programación y para qué sirve?",
+      "clue": "Piensa en un contenedor para guardar información que se puede usar o modificar.",
+      "answerA": {
+        "statement": "Un espacio para almacenar datos temporales.",
+        "isCorrect": true
+      },
+      "answerB": {
+        "statement": "Un error en el código.",
+        "isCorrect": false
+      },
+      "answerC": {
+        "statement": "Una función predefinida.",
+        "isCorrect": false
+      },
+      "answerD": {
+        "statement": "Un tipo de bucle.",
+        "isCorrect": false
+      },
+      "numberLevel": 1,
+      "isAvaliable": true
+    },
+    {
+      "statementQuestion": "¿Cuál es la diferencia entre un bucle for y un bucle while?",
+      "clue": "Considera cuándo conoces de antemano cuántas iteraciones necesitas.",
+      "answerA": {
+        "statement": "for es para iteraciones conocidas y while para desconocidas.",
+        "isCorrect": true
+      },
+      "answerB": {
+        "statement": "for se usa para condiciones desconocidas y while para conocidas.",
+        "isCorrect": false
+      },
+      "answerC": {
+        "statement": "Ambos funcionan igual.",
+        "isCorrect": false
+      },
+      "answerD": {
+        "statement": "while siempre es más rápido que for.",
+        "isCorrect": false
+      },
+      "numberLevel": 1,
+      "isAvaliable": true
+    },
+    {
+      "statementQuestion": "¿Qué es un tipo de dato y cuál es su importancia en programación?",
+      "clue": "Piensa en cómo clasificas la información para que el programa la entienda.",
+      "answerA": {
+        "statement": "Un conjunto de instrucciones que ejecuta una tarea específica.",
+        "isCorrect": false
+      },
+      "answerB": {
+        "statement": "Una categoría que define qué tipo de valores puede almacenar una variable.",
+        "isCorrect": true
+      },
+      "answerC": {
+        "statement": "Un valor fijo que nunca cambia en un programa.",
+        "isCorrect": false
+      },
+      "answerD": {
+        "statement": "Un error que ocurre al procesar datos en el código.",
+        "isCorrect": false
+      },
+      "numberLevel": 1,
+      "isAvaliable": true
+    },
+    {
+      "statementQuestion": "¿Cómo se declara y utiliza una función simple que sume dos números?",
+      "clue": "Busca una función que devuelva el resultado correcto con una sintaxis apropiada.",
+      "answerA": {
+        "statement": "suma = a + b;",
+        "isCorrect": false
+      },
+      "answerB": {
+        "statement": "void sumar(int a, int b) { return a - b; }.",
+        "isCorrect": false
+      },
+      "answerC": {
+        "statement": "int sumar(int a, int b) { return a + b; }.",
+        "isCorrect": true
+      },
+      "answerD": {
+        "statement": "sumar(a, b) -> { return a + b; }.",
+        "isCorrect": false
+      },
+      "numberLevel": 1,
+      "isAvaliable": true
+    },
+    {
+      "statementQuestion": "¿Qué es un comentario en el código y por qué es importante usarlos?",
+      "clue": "Ayuda a que otros desarrolladores comprendan mejor tu código.",
+      "answerA": {
+        "statement": "Una línea que mejora la eficiencia del código.",
+        "isCorrect": false
+      },
+      "answerB": {
+        "statement": "Texto ignorado por el compilador para documentar el código.",
+        "isCorrect": true
+      },
+      "answerC": {
+        "statement": "Una forma de cambiar valores dinámicamente.",
+        "isCorrect": false
+      },
+      "answerD": {
+        "statement": "Una herramienta para depurar errores.",
+        "isCorrect": false
+      },
+      "numberLevel": 1,
+      "isAvaliable": true
+    },
+    {
+      "statementQuestion": "¿Qué es un array y cómo accederías al tercer elemento en un arreglo de tamaño 5?",
+      "clue": "Recuerda que los índices en los arreglos comienzan desde cero.",
+      "answerA": {
+        "statement": "Una lista de datos que se accede con [2].",
+        "isCorrect": true
+      },
+      "answerB": {
+        "statement": "Una variable que almacena múltiples valores, se accede con [3].",
+        "isCorrect": false
+      },
+      "answerC": {
+        "statement": "Un conjunto de variables con acceso mediante [5].",
+        "isCorrect": false
+      },
+      "answerD": {
+        "statement": "Un diccionario de valores con claves [3].",
+        "isCorrect": false
+      },
+      "numberLevel": 2,
+      "isAvaliable": true
+    },
+    {
+      "statementQuestion": "¿Cómo optimizarías el tiempo de ejecución de un programa que ordena millones de números?",
+      "clue": "Busca un algoritmo de ordenamiento reconocido por ser rápido.",
+      "answerA": {
+        "statement": "Dividiendo el arreglo en partes desiguales.",
+        "isCorrect": false
+      },
+      "answerB": {
+        "statement": "Usando un algoritmo de búsqueda binaria.",
+        "isCorrect": false
+      },
+      "answerC": {
+        "statement": "Cambiando de un lenguaje interpretado a uno compilado.",
+        "isCorrect": false
+      },
+      "answerD": {
+        "statement": "Implementando un algoritmo de ordenamiento eficiente como Quicksort.",
+        "isCorrect": true
+      },
+      "numberLevel": 3,
+      "isAvaliable": true
+    },
+    {
+    "statementQuestion": "¿Cómo explicarías la relación entre una clase y un objeto en términos de programación orientada a objetos?",
+    "clue": "Piensa en la clase como un plano y en el objeto como la construcción final.",
+    "answerA": {
+      "statement": "Una clase es una colección de objetos idénticos.",
+      "isCorrect": false
+    },
+    "answerB": {
+      "statement": "Una clase define las propiedades y comportamientos que los objetos pueden tener.",
+      "isCorrect": true
+    },
+    "answerC": {
+      "statement": "Un objeto contiene varias clases dentro de su estructura.",
+      "isCorrect": false
+    },
+    "answerD": {
+      "statement": "No existe una relación directa entre clases y objetos.",
+      "isCorrect": false
+    },
+    "numberLevel": 2,
+    "isAvaliable": true
+  },
+  {
+    "statementQuestion": "¿Qué operación permite recorrer un arreglo en ambas direcciones usando un índice?",
+    "clue": "Considera un bucle que puede aumentar o disminuir su índice.",
+    "answerA": {
+      "statement": "Un bucle for con un índice decreciente o creciente.",
+      "isCorrect": true
+    },
+    "answerB": {
+      "statement": "Recursión directa.",
+      "isCorrect": false
+    },
+    "answerC": {
+      "statement": "Iteración bidireccional.",
+      "isCorrect": false
+    },
+    "answerD": {
+      "statement": "Un bucle while con una condición inversa.",
+      "isCorrect": false
+    },
+    "numberLevel": 2,
+    "isAvaliable": true
+  },
+  {
+    "statementQuestion": "¿Cuál es la ventaja de utilizar estructuras de datos como listas enlazadas frente a arreglos?",
+    "clue": "Piensa en operaciones rápidas sin cambiar el tamaño.",
+    "answerA": {
+      "statement": "Las listas enlazadas tienen índices como los arreglos, pero son más flexibles.",
+      "isCorrect": false
+    },
+    "answerB": {
+      "statement": "Las listas enlazadas ocupan menos memoria que los arreglos.",
+      "isCorrect": false
+    },
+    "answerC": {
+      "statement": "Los arreglos siempre son más lentos para cualquier operación.",
+      "isCorrect": false
+    },
+    "answerD": {
+      "statement": "Las listas enlazadas permiten inserciones y eliminaciones rápidas sin necesidad de redimensionar.",
+      "isCorrect": true
+    },
+    "numberLevel": 2,
+    "isAvaliable": true
+  },
+  {
+    "statementQuestion": "¿Cómo implementas una búsqueda binaria?",
+    "clue": "Divide y conquista, pero busca solo en la mitad que te interesa.",
+    "answerA": {
+      "statement": "Iterando secuencialmente por todos los elementos.",
+      "isCorrect": false
+    },
+    "answerB": {  
+      "statement": "Dividiendo el arreglo en dos partes y buscando en la mitad relevante.",
+      "isCorrect": true
+    },
+    "answerC": {
+      "statement": "Utilizando recursividad para encontrar el menor valor.",
+      "isCorrect": false
+    },
+    "answerD": {
+      "statement": "Ordenando el arreglo en orden ascendente.",
+      "isCorrect": false
+    },
+    "numberLevel": 2,
+    "isAvaliable": true
+  },
+  {
+    "statementQuestion": "Explica el concepto de patrones de diseño y menciona el uso del patrón Singleton.",
+    "clue": "Singleton asegura que una clase tenga una única instancia.",
+    "answerA": {
+      "statement": "Son plantillas para problemas recurrentes, Singleton asegura una única instancia.",
+      "isCorrect": true
+    },
+    "answerB": {
+      "statement": "Proveen soluciones optimizadas para tareas de seguridad.",
+      "isCorrect": false
+    },
+    "answerC": {
+      "statement": "Son algoritmos para optimizar código en tiempo de ejecución.",
+      "isCorrect": false
+    },
+    "answerD": {
+      "statement": "Son estilos de codificación de largo alcance.",
+      "isCorrect": false
+    },
+    "numberLevel": 3,
+    "isAvaliable": true
+  },
+  {
+    "statementQuestion": "Describe cómo implementarías un sistema de login seguro.",
+    "clue": "Nunca almacenes contraseñas directamente; usa cifrado.",
+    "answerA": {
+      "statement": "Usando variables globales para almacenar contraseñas.",
+      "isCorrect": false
+    },
+    "answerB": {
+      "statement": "Guardando las contraseñas directamente en texto plano.",
+      "isCorrect": false
+    },
+    "answerC": {
+      "statement": "Cifrando contraseñas con un hash como SHA-256 y usando salt.",
+      "isCorrect": true
+    },
+    "answerD": {
+      "statement": "Almacenando contraseñas en cookies del navegador.",
+      "isCorrect": false
+    },
+    "numberLevel": 3,
+    "isAvaliable": true
+  },
+  {
+    "statementQuestion": "¿Qué es el paralelismo y cómo lo implementarías en un programa?",
+    "clue": "Usa múltiples núcleos para ejecutar tareas al mismo tiempo.",
+    "answerA": {
+      "statement": "La ejecución de tareas en un solo núcleo de manera secuencial.",
+      "isCorrect": false
+    },
+    "answerB": {
+      "statement": "Una técnica para reducir el uso de memoria durante la ejecución del programa.",
+      "isCorrect": false
+    },
+    "answerC": {
+      "statement": "Una forma de dividir un programa en módulos independientes.",
+      "isCorrect": false
+    },
+    "answerD": {
+	  "statement": "La ejecución simultánea de tareas utilizando múltiples procesadores o núcleos.",
+      "isCorrect": true
+    },
+    "numberLevel": 3,
+    "isAvaliable": true
+  },
+  {
+    "statementQuestion": "¿Cómo implementarías un sistema de caché para optimizar la carga de datos?",
+    "clue": "Piensa en una estructura con clave-valor que caduca con el tiempo.",
+    "answerA": {
+      "statement": "Usando una estructura como un mapa clave-valor con tiempo de expiración.",
+      "isCorrect": true
+    },
+    "answerB": {
+      "statement": "Almacenando todos los datos en memoria.",
+      "isCorrect": false
+    },
+    "answerC": {
+      "statement": "Haciendo consultas a la base de datos continuamente.",
+      "isCorrect": false
+    },
+    "answerD": {
+      "statement": "Guardando datos en archivos locales.",
+      "isCorrect": false
+    },
+    "numberLevel": 3,
+    "isAvaliable": true
+  }
+  ]
+}
